@@ -3,6 +3,8 @@
  * webpack.config.js. */
 
 import { defineMessages } from 'react-intl';
+import naturalHistoryExtensionPlugin from 'cspace-ui-plugin-ext-naturalhistory';
+import taxonRecordPlugin from 'cspace-ui-plugin-record-taxon';
 import messages from './messages';
 import plugins from './plugins';
 import styles from '../styles/cspace-ui-plugin-profile/herbarium.css';
@@ -23,5 +25,9 @@ export default () => ({
       version: cspaceUIPluginProfileHerbarium.packageVersion,
     },
   },
-  plugins: plugins.map((plugin) => plugin()),
+  plugins: [
+    naturalHistoryExtensionPlugin(),
+    taxonRecordPlugin(),
+    ...plugins.map((plugin) => plugin()),
+  ],
 });
