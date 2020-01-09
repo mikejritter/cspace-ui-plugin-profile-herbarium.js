@@ -1,6 +1,6 @@
 {
   "name": "cspace-ui-plugin-profile-herbarium",
-  "version": "0.0.1",
+  "version": "1.0.0-rc.1",
   "description": "Herbarium profile plugin for the CollectionSpace UI",
   "author": "",
   "license": "ECL-2.0",
@@ -41,7 +41,7 @@
     "test-selenium": "wdio wdio.conf.js"
   },
   "dependencies": {
-    "cspace-ui-plugin-ext-naturalhistory": "^1.1.0",
+    "cspace-ui-plugin-ext-naturalhistory": "^1.2.0",
     "cspace-ui-plugin-record-taxon": "^1.0.2",
     "react-intl": "^2.3.0"
   },
