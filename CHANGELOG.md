@@ -2,4 +2,4 @@
 
 ## v1.0.0
 
-The initial release of the herbarium profile. Requires cspace-ui 4.
+Initial release of the herbarium profile. Requires cspace-ui 4.
