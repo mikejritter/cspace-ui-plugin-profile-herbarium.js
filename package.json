@@ -1,6 +1,6 @@
 {
   "name": "cspace-ui-plugin-profile-herbarium",
-  "version": "1.0.0-rc.2",
+  "version": "1.0.0",
   "description": "Herbarium profile plugin for the CollectionSpace UI",
   "author": "",
   "license": "ECL-2.0",
