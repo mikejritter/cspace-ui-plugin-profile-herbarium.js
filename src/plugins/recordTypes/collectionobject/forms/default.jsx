@@ -21,7 +21,12 @@ const template = (configContext) => {
         <Row>
           <Field name="objectNumber" />
           <Field name="collection" />
-          <Field name="namedCollection" />
+
+          <Col>
+            <Field name="namedCollections">
+              <Field name="namedCollection" />
+            </Field>
+          </Col>
         </Row>
 
         <Field name="determinationHistoryGroupList" subpath="ns2:collectionobjects_naturalhistory_extension">
