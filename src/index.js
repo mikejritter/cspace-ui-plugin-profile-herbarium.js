@@ -22,6 +22,12 @@ export default () => ({
           defaultMessage: 'Herbarium profile',
         },
       }),
+      packageName: cspaceUIPluginProfileHerbarium.packageName,
+      packageVersion: cspaceUIPluginProfileHerbarium.packageVersion,
+      buildNum: cspaceUIPluginProfileHerbarium.buildNum,
+      repositoryUrl: cspaceUIPluginProfileHerbarium.repositoryUrl,
+      // packageVersion is now preferred, but keep version for backward compatibility with older
+      // versions of cspace-ui.
       version: cspaceUIPluginProfileHerbarium.packageVersion,
     },
   },
