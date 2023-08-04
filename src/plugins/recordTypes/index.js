@@ -6,6 +6,7 @@ import iterationreport from './iterationreport';
 import loanin from './loanin';
 import loanout from './loanout';
 import objectexit from './objectexit';
+import place from './place';
 import taxon from './taxon';
 
 export default [
@@ -17,5 +18,6 @@ export default [
   loanin,
   loanout,
   objectexit,
+  place,
   taxon,
 ];
