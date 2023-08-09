@@ -1,4 +1,5 @@
 import acquisition from './acquisition';
+import chronology from './chronology';
 import collectionobject from './collectionobject';
 import concept from './concept';
 import conservation from './conservation';
@@ -11,6 +12,7 @@ import taxon from './taxon';
 
 export default [
   acquisition,
+  chronology,
   collectionobject,
   concept,
   conservation,
