@@ -86,6 +86,8 @@ const template = (configContext) => {
             <Field name="loanRenewalApplicationDate" />
           </Col>
         </Cols>
+
+        <Field name="creditLine" />
       </Panel>
 
       <Panel name="loanItem" collapsible collapsed>
