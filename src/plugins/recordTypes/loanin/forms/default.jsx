@@ -89,8 +89,6 @@ const template = (configContext) => {
           <Field name="transferInOrg" subpath="ns2:loansin_herbarium" />
           <Field name="transferInPerson" subpath="ns2:loansin_herbarium" />
         </InputTable>
-
-        <Field name="creditLine" />
       </Panel>
 
       <Panel name="return" collapsible collapsed>
