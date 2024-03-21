@@ -247,12 +247,5 @@ const template = (configContext) => {
 };
 
 export default (configContext) => ({
-  messages: defineMessages({
-    name: {
-      id: 'form.collectionobject.photo.name',
-      defaultMessage: 'Photograph Template',
-    },
-  }),
-  sortOrder: 2,
   template: template(configContext),
 });

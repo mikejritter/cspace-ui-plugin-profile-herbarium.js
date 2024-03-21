@@ -108,12 +108,5 @@ const template = (configContext) => {
 };
 
 export default (configContext) => ({
-  messages: defineMessages({
-    name: {
-      id: 'form.collectionobject.inventory.name',
-      defaultMessage: 'Inventory Template',
-    },
-  }),
-  sortOrder: 1,
   template: template(configContext),
 });
