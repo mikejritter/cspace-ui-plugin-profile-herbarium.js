@@ -1,5 +1,3 @@
-import { defineMessages } from 'react-intl';
-
 const template = (configContext) => {
   const {
     React,
